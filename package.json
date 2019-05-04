@@ -1,0 +1,27 @@
+{
+    "name": "not-today",
+    "displayName": "not-today",
+    "description": "Not today",
+    "version": "1.0.0",
+    "publisher": "sneridagh",
+    "engines": {
+        "vscode": "^1.33.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Not Today",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Not Today-color-theme.json"
+            },
+            {
+                "label": "Not Today dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Not Today-dark-color-theme.json"
+            }
+        ]
+    }
+}
